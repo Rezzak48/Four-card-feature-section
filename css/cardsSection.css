@@ -1,15 +1,16 @@
 .cardsSection {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: var(--cardsGap);
+  flex-wrap: wrap;
   max-width: 69.375rem;
+  gap: var(--cardsGap);
+  
 }
 .subBox {
   display: flex;
   flex-direction: column;
   gap: var(--cardsGap);
-  /* align-items: stretch; */
 }
 .cardsSection article {
   background-color: var(--cardBackgroundColor);
@@ -29,8 +30,10 @@
   max-width: 17.875rem;
 }
 .cardsSection article img {
-  padding-left: 15.875rem;
-  padding-bottom: calc(100% - 9.625rem);
+  /* padding-left: 15.875rem;
+  padding-bottom: calc(100% - 9.625rem); */
+  position: relative;
+  left: calc(100% - 91px);
 }
 .cardsSection .card1 {
   border-top-color: var(--lightBlue);

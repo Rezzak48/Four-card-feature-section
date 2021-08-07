@@ -20,41 +20,35 @@ body {
   --BackgroundColor: hsl(0, 0%, 98%);
   --cardBackgroundColor: hsl(0, 0%, 100%);
   /* --------- */
+  --containerMarging: 5.5625rem;
 
   /* Typography */
 
-  /* --body: 15px; */
-  --body: 0.938rem;
+  --body: 0.9375rem;
   --lightFWeight: 200;
   --normalFWeight: 400;
   --semiBoldFWeight: 600;
 
-  /* Heading */
-  /* --headingTitleSize: 36px; */
+  /* Heading  -----------*/
   --headingTitleSize: 2.25rem;
-  /* --headingTitleLetterSpace: 0.25px; */
   --headingTitleLetterSpace: 0.016rem;
-  /* --headingParagraphLineHeight: 25px; */
   --headingParagraphLineHeight: 1.56rem;
-  /* --headingParagraphLetterSpacing: 0.1px; */
   --headingParagraphLetterSpacing: 0.006rem;
-  /* --headingMargin: 65px; */
   --headingMargin: 4rem;
+  /*  For small Screens*/
+  --headingSmTitleSize: 1.5rem;
+  --headingSmTitleLetterSpace: 0.0106rem;
 
   /* Cards */
-  /* --cardTitleSize: 20px;
-  --cardBodySize: 13px;
-  --cardBodyLineHeight: 23px;
-  --cardBodyLetterSpacing: 0, 09px;
-  --cardMaxWidth: 350px;
-  --cardMaxHeight: 250px; */
   --cardTitleSize: 1.25rem;
   --cardBodySize: 0.81rem;
   --cardBodyLineHeight: 1.43rem;
   --cardBodyLetterSpacing: 0.006rem;
   --cardMaxWidth: 21.87rem;
+  --cardSmMawWidth: 19.4375rem;
   --cardMaxHeight: 15.62rem;
   --cardsGap: 1.87rem;
+  --cardsSmGap: 1.25rem;
 
   /* ----------- */
 }
@@ -64,7 +58,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* max-width: 1110px; */
+  margin-top: var(--headingMargin);
+  margin-bottom: var(--headingMargin);
 }
 
 /* Start Heading */
@@ -80,13 +75,11 @@ h1 {
   letter-spacing: var(--headingParagraphLetterSpacing);
   text-align: center;
   height: auto;
-  /* max-width: 540px; */
   max-width: 33.75rem;
   font-weight: 400;
   opacity: 50%;
   margin-bottom: 0;
   margin-top: 0;
-  /* margin-bottom: 65px; */
 }
 /* End Heading */
 
@@ -94,7 +87,6 @@ h1 {
 h2 {
   font-size: var(--cardTitleSize);
   font-weight: var(--semiBoldFWeight);
-  /* margin-bottom: 6px; */
   margin-bottom: 0.37rem;
 }
 .cardText {

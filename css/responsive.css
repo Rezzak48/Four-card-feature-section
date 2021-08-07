@@ -1,0 +1,32 @@
+@media (max-width: 1110px) {
+  .subBox {
+    order: 3;
+    flex-direction: row;
+  }
+  .cardsSection {
+  }
+}
+@media (max-width: 900px) {
+  .cardsSection article {
+    width: var(--cardSmMawWidth);
+  }
+}
+
+@media (max-width: 664px) {
+  .subBox {
+    flex-direction: column;
+    order: 2;
+    gap: var(--cardsSmGap);
+  }
+  h1 {
+    font-size: var(--headingSmTitleSize);
+    letter-spacing: var(--headingSmTitleLetterSpace);
+    text-align: center;
+  }
+  .heading {
+    max-width: var(--cardSmMawWidth);
+  }
+  .firstH1 {
+    padding-bottom: 0.0625rem;
+  }
+}

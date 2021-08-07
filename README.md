@@ -23,24 +23,29 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./DesignScreenshots/desktop-design.jpg)
-![](./DesignScreenshots/mobile-design.jpg) -->
+![](./DesignScreenshots/DesktopScreen.png)
+![](./DesignScreenshots/MobileVersion.png)
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Solution URL: []()
+- Live Site URL: [](https://gallant-yonath-3220a6.netlify.app/)
 
 ## My process
 
 ### Built with
 
-<!-- - Semantic HTML5 markup
+- Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- Desktop-first workflow -->
+- Flex box
+- Mobile-first workflow
 
 ### What I learned
+
+I practiced more about media queries and flex box and how to use them more wisely.
+I learned how to use netlify to host my repo.
+I learned about doc to make this readme file
+I learned to save and push files to github each time I did changes on any feature
 
 ## Author
 
