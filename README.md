@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL:](https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-bcn5lEUwB)
 - Live Site URL: [Live Site URL:](https://gallant-yonath-3220a6.netlify.app/)
+- Solution URL: [Solution URL:](https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-bcn5lEUwB)
 
 ## My process
 
