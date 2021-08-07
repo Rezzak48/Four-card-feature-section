@@ -22,25 +22,39 @@ body {
   /* --------- */
 
   /* Typography */
-  --body: 15px;
+
+  /* --body: 15px; */
+  --body: 0.938rem;
   --lightFWeight: 200;
   --normalFWeight: 400;
   --semiBoldFWeight: 600;
 
   /* Heading */
-  --headingTitleSize: 36px;
-  --headingTitleLetterSpace: 0.25px;
-  --headingParagraphLineHeight: 25px;
-  --headingParagraphLetterSpacing: 0.1px;
-  --headingMargin: 65px;
+  /* --headingTitleSize: 36px; */
+  --headingTitleSize: 2.25rem;
+  /* --headingTitleLetterSpace: 0.25px; */
+  --headingTitleLetterSpace: 0.016rem;
+  /* --headingParagraphLineHeight: 25px; */
+  --headingParagraphLineHeight: 1.56rem;
+  /* --headingParagraphLetterSpacing: 0.1px; */
+  --headingParagraphLetterSpacing: 0.006rem;
+  /* --headingMargin: 65px; */
+  --headingMargin: 4rem;
 
   /* Cards */
-  --cardTitleSize: 20px;
+  /* --cardTitleSize: 20px;
   --cardBodySize: 13px;
   --cardBodyLineHeight: 23px;
   --cardBodyLetterSpacing: 0, 09px;
   --cardMaxWidth: 350px;
-  --cardMaxHeight: 250px;
+  --cardMaxHeight: 250px; */
+  --cardTitleSize: 1.25rem;
+  --cardBodySize: 0.81rem;
+  --cardBodyLineHeight: 1.43rem;
+  --cardBodyLetterSpacing: 0.006rem;
+  --cardMaxWidth: 21.87rem;
+  --cardMaxHeight: 15.62rem;
+  --cardsGap: 1.87rem;
 
   /* ----------- */
 }
@@ -50,7 +64,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1110px;
+  /* max-width: 1110px; */
 }
 
 /* Start Heading */
@@ -66,7 +80,8 @@ h1 {
   letter-spacing: var(--headingParagraphLetterSpacing);
   text-align: center;
   height: auto;
-  max-width: 540px;
+  /* max-width: 540px; */
+  max-width: 33.75rem;
   font-weight: 400;
   opacity: 50%;
   margin-bottom: 0;
@@ -79,7 +94,8 @@ h1 {
 h2 {
   font-size: var(--cardTitleSize);
   font-weight: var(--semiBoldFWeight);
-  margin-bottom: 6px;
+  /* margin-bottom: 6px; */
+  margin-bottom: 0.37rem;
 }
 .cardText {
   font-size: var(--cardBodySize);

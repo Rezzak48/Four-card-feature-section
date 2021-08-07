@@ -2,35 +2,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  max-width: 1110px;
+  gap: var(--cardsGap);
+  max-width: 69.375rem;
 }
 .subBox {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  align-items: stretch;
+  gap: var(--cardsGap);
+  /* align-items: stretch; */
 }
 .cardsSection article {
   background-color: var(--cardBackgroundColor);
   /* background-color: yellow; */
-  box-shadow: 0px 15px 30px -11px var(--ShadowColor);
-  border-radius: 8px;
+  box-shadow: 0px 0.9375rem 1.875rem -0.6875rem var(--ShadowColor);
+  border-radius: 0.5rem;
   width: var(--cardMaxWidth);
   height: var(--cardMaxHeight);
-  border-top: 4px solid transparent;
+  border-top: 0.25rem solid transparent;
 }
 .cardsSection article h2 {
-  padding-top: 32px;
-  padding-left: 32px;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 .cardsSection article p {
-  padding-left: 32px;
-  max-width: 286px;
+  padding-left: 2rem;
+  max-width: 17.875rem;
 }
 .cardsSection article img {
-  padding-left: 254px;
-  padding-bottom: calc(100% - 154px);
+  padding-left: 15.875rem;
+  padding-bottom: calc(100% - 9.625rem);
 }
 .cardsSection .card1 {
   border-top-color: var(--lightBlue);
