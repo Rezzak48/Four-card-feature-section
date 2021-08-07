@@ -1,0 +1,46 @@
+.cardsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1110px;
+}
+.subBox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: stretch;
+}
+.cardsSection article {
+  background-color: var(--cardBackgroundColor);
+  /* background-color: yellow; */
+  box-shadow: 0px 15px 30px -11px var(--ShadowColor);
+  border-radius: 8px;
+  width: var(--cardMaxWidth);
+  height: var(--cardMaxHeight);
+  border-top: 4px solid transparent;
+}
+.cardsSection article h2 {
+  padding-top: 32px;
+  padding-left: 32px;
+}
+.cardsSection article p {
+  padding-left: 32px;
+  max-width: 286px;
+}
+.cardsSection article img {
+  padding-left: 254px;
+  padding-bottom: calc(100% - 154px);
+}
+.cardsSection .card1 {
+  border-top-color: var(--lightBlue);
+}
+.cardsSection .card2 {
+  border-top-color: var(--Red);
+}
+.cardsSection .card3 {
+  border-top-color: var(--Orange);
+}
+.cardsSection .card4 {
+  border-top-color: var(--DarkBlue);
+}

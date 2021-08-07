@@ -1,0 +1,27 @@
+/* Start Heading */
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: var(--headingMargin);
+}
+.headingTitles {
+  padding-bottom: 10px;
+}
+.firstH1 {
+  font-weight: var(--lightFWeight);
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.secondH1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: var(--semiBoldFWeight);
+}
+/* End Heading */
+
+
+
