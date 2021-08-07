@@ -4,6 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: var(--body);
+  background-color: var(--BackgroundColor);
 }
 :root {
   /* Colors */
@@ -14,13 +15,17 @@ body {
   --DarkBlue: hsl(212, 86%, 64%);
   /* Neutral */
   --textsColor: hsl(234, 12%, 34%);
-  --Grayish-Blue: hsl(229, 6%, 66%);
+  /* --Grayish-Blue: hsl(229, 6%, 66%); */
+  --ShadowColor: hsl(229, 6%, 66%);
   --BackgroundColor: hsl(0, 0%, 98%);
   --cardBackgroundColor: hsl(0, 0%, 100%);
   /* --------- */
 
   /* Typography */
   --body: 15px;
+  --lightFWeight: 200;
+  --normalFWeight: 400;
+  --semiBoldFWeight: 600;
 
   /* Heading */
   --headingTitleSize: 36px;
@@ -30,11 +35,21 @@ body {
   --headingMargin: 65px;
 
   /* Cards */
-  --cardTitle: 20px;
-  --cardText: 13px;
-  --cardTextLineHeight: 23;
-  --cardTextLetterSpacing: 0, 09px;
+  --cardTitleSize: 20px;
+  --cardBodySize: 13px;
+  --cardBodyLineHeight: 23px;
+  --cardBodyLetterSpacing: 0, 09px;
+  --cardMaxWidth: 350px;
+  --cardMaxHeight: 250px;
+
   /* ----------- */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Start Heading */
@@ -59,4 +74,15 @@ h1 {
 }
 /* End Heading */
 
-/* Cards */
+/* start Cards */
+h2 {
+  font-size: var(--cardTitleSize);
+  font-weight: var(--semiBoldFWeight);
+  margin-bottom: 6px;
+}
+.cardText {
+  font-size: var(--cardBodySize);
+  line-height: var(--cardBodyLineHeight);
+  letter-spacing: var(--cardBodyLetterSpacing);
+}
+/* End cards */
