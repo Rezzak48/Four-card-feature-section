@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: [](https://gallant-yonath-3220a6.netlify.app/)
+- Solution URL: [Solution URL:](https://www.frontendmentor.io/solutions/four-card-feature-section-html-css-bcn5lEUwB)
+- Live Site URL: [Live Site URL:](https://gallant-yonath-3220a6.netlify.app/)
 
 ## My process
 
@@ -49,6 +49,7 @@ I learned to save and push files to github each time I did changes on any featur
 
 ## Author
 
-- Website - [](NotAvailableForNow)
+<!-- - Website - [](NotAvailableForNow) -->
+
 - Frontend Mentor - [@Rezzak](https://www.frontendmentor.io/profile/errazakallah31)
 - Twitter - [@Rezzak_48](https://twitter.com/Rezzak_48)
