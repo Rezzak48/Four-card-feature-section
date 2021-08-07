@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+:root {
+  /* Colors */
+  /* Primary */
+  --Red: hsl(0, 78%, 62%);
+  --lightBlue: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --DarkBlue: hsl(212, 86%, 64%);
+  /* Neutral */
+  --textsColor: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --BackgroundColor: hsl(0, 0%, 98%);
+  --cardBackgroundColor: hsl(0, 0%, 100%);
+  /* --------- */
+
+  /* Typography */
+  --body: 15px;
+  /* Heading */
+  --headingTitleSize: 36px;
+  --headingTitleLetterSpace: 0.25px;
+  --headingParagraphLineHeight: 25px;
+  --headingParagraphLetterSpacing: 0.1px;
+
+  /* Cards */
+  --cardTitle: 20px;
+  --cardText: 13px;
+  --cardTextLineHeight: 23;
+  --cardTextLetterSpacing: 0, 09px;
+  /* ----------- */
+}
+
+/* Start Heading */
+h1 {
+  font-size: var(--headingSize);
+  letter-spacing: var(--headingTitleLetterSpace);
+  color: var(--textsColor);
+}
+.headingParagraph {
+  color: var(--textsColor);
+  font-size: var(--body);
+  line-height: var(--headingParagraphLineHeight);
+  letter-spacing: var(--headingParagraphLetterSpacing);
+  text-align: center;
+  margin-bottom: 65px;
+}
+/* End Heading */
+
+/* Cards */
