@@ -3,7 +3,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: var(--body);
 }
 :root {
   /* Colors */
@@ -21,11 +21,13 @@ body {
 
   /* Typography */
   --body: 15px;
+
   /* Heading */
   --headingTitleSize: 36px;
   --headingTitleLetterSpace: 0.25px;
   --headingParagraphLineHeight: 25px;
   --headingParagraphLetterSpacing: 0.1px;
+  --headingMargin: 65px;
 
   /* Cards */
   --cardTitle: 20px;
@@ -37,7 +39,7 @@ body {
 
 /* Start Heading */
 h1 {
-  font-size: var(--headingSize);
+  font-size: var(--headingTitleSize);
   letter-spacing: var(--headingTitleLetterSpace);
   color: var(--textsColor);
 }
@@ -47,7 +49,13 @@ h1 {
   line-height: var(--headingParagraphLineHeight);
   letter-spacing: var(--headingParagraphLetterSpacing);
   text-align: center;
-  margin-bottom: 65px;
+  height: auto;
+  max-width: 540px;
+  font-weight: 400;
+  opacity: 50%;
+  margin-bottom: 0;
+  margin-top: 0;
+  /* margin-bottom: 65px; */
 }
 /* End Heading */
 
